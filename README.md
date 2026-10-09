@@ -265,7 +265,7 @@ reviewagent/
 
 ```sql
 CREATE DATABASE reviewagentdb CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-CREATE USER 'reviewagent'@'localhost' IDENTIFIED BY '1234';
+CREATE USER 'reviewagent'@'localhost' IDENTIFIED BY 'password';
 GRANT ALL PRIVILEGES ON reviewagentdb.* TO 'reviewagent'@'localhost';
 FLUSH PRIVILEGES;
 ```
